@@ -1,0 +1,44 @@
+=============== Feb 27, 2018 (CST) ===============
+09:49:25.958329 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+09:49:25.958829 db@open opening
+09:49:25.972995 version@stat F·[] S·0B[] Sc·[]
+09:49:25.973364 db@janitor F·2 G·0
+09:49:25.973477 db@open done T·14.636002ms
+10:00:01.186922 db@close closing
+10:00:01.186990 db@close done T·63.247µs
+=============== Feb 27, 2018 (CST) ===============
+10:00:21.052175 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+10:00:21.052376 version@stat F·[] S·0B[] Sc·[]
+10:00:21.052386 db@open opening
+10:00:21.052424 journal@recovery F·1
+10:00:21.055074 journal@recovery recovering @1
+10:00:21.055915 memdb@flush created L0@2 N·34 S·2KiB "\x03\x95\x06..\v_I,v13":"у[..\xe1f\xcc,v22"
+10:00:21.066619 version@stat F·[1] S·2KiB[2KiB] Sc·[0.25]
+10:00:21.067549 db@janitor F·3 G·0
+10:00:21.067565 db@open done T·15.17341ms
+10:04:05.318165 db@close closing
+10:04:05.318228 db@close done T·61.773µs
+=============== Feb 27, 2018 (CST) ===============
+10:04:54.026722 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+10:04:54.026881 version@stat F·[1] S·2KiB[2KiB] Sc·[0.25]
+10:04:54.026894 db@open opening
+10:04:54.026938 journal@recovery F·1
+10:04:54.030048 journal@recovery recovering @3
+10:04:54.030705 memdb@flush created L0@5 N·3 S·387B "Blo..ion,v37":"eth..\xf5h/,v36"
+10:04:54.042379 version@stat F·[2] S·2KiB[2KiB] Sc·[0.50]
+10:04:54.043393 db@janitor F·4 G·0
+10:04:54.043414 db@open done T·16.50914ms
+13:55:43.261477 db@close closing
+13:55:43.270074 db@close done T·8.59452ms
+=============== Mar 1, 2018 (CST) ===============
+09:56:28.775590 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+09:56:28.799083 version@stat F·[2] S·2KiB[2KiB] Sc·[0.50]
+09:56:28.799139 db@open opening
+09:56:28.799300 journal@recovery F·1
+09:56:28.803436 journal@recovery recovering @6
+09:56:28.816896 memdb@flush created L0@8 N·23 S·1KiB "Blo..ion,v41":"r\x00\x00..\x80\xaeF,v57"
+09:56:28.828810 version@stat F·[3] S·3KiB[3KiB] Sc·[0.75]
+09:56:28.886688 db@janitor F·5 G·0
+09:56:28.886712 db@open done T·87.560613ms
+14:18:32.227159 db@close closing
+14:18:32.245863 db@close done T·18.697484ms

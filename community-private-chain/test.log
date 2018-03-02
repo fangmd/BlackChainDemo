@@ -1,0 +1,64 @@
+INFO [03-02|14:03:05] Maximum peer count                       ETH=25 LES=0 total=25
+INFO [03-02|14:03:05] Starting peer-to-peer node               instance=Geth/FangMindDong/v1.8.1-stable/darwin-amd64/go1.9.2
+INFO [03-02|14:03:05] Allocated cache and file handles         database=/Users/nerc/Documents/fangmingdong/ethRelate/community-private-chain/data/geth/chaindata cache=768 handles=1024
+WARN [03-02|14:03:05] Upgrading database to use lookup entries 
+INFO [03-02|14:03:05] Initialised chain configuration          config="{ChainID: 8 Homestead: 0 DAO: <nil> DAOSupport: false EIP150: <nil> EIP155: 0 EIP158: 0 Byzantium: <nil> Engine: unknown}"
+INFO [03-02|14:03:05] Disk storage enabled for ethash caches   dir=/Users/nerc/Documents/fangmingdong/ethRelate/community-private-chain/data/geth/ethash count=3
+INFO [03-02|14:03:05] Disk storage enabled for ethash DAGs     dir=/Users/nerc/.ethash                                                                   count=2
+INFO [03-02|14:03:05] Database deduplication successful        deduped=0
+INFO [03-02|14:03:05] Initialising Ethereum protocol           versions="[63 62]" network=999
+INFO [03-02|14:03:05] Loaded most recent local header          number=0 hash=1e7bea…deffa5 td=131072
+INFO [03-02|14:03:05] Loaded most recent local full block      number=0 hash=1e7bea…deffa5 td=131072
+INFO [03-02|14:03:05] Loaded most recent local fast block      number=0 hash=1e7bea…deffa5 td=131072
+INFO [03-02|14:03:05] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [03-02|14:03:05] Starting P2P networking 
+INFO [03-02|14:03:07] UDP listener up                          self=enode://09034007e158e2a62813b22b81f54bb5e144657317997e09e60b608caab227ea26db0f644f8928b23057c4da7872806a6a8c6ae1413ae77f8830082b8dfef897@[::]:30304
+INFO [03-02|14:03:07] RLPx listener up                         self=enode://09034007e158e2a62813b22b81f54bb5e144657317997e09e60b608caab227ea26db0f644f8928b23057c4da7872806a6a8c6ae1413ae77f8830082b8dfef897@[::]:30304
+INFO [03-02|14:03:07] IPC endpoint opened                      url=/Users/nerc/Documents/fangmingdong/ethRelate/community-private-chain/data/geth.ipc
+INFO [03-02|14:03:07] HTTP endpoint opened                     url=http://0.0.0.0:8090                                                                cors=* vhosts=localhost
+INFO [03-02|14:09:44] HTTP endpoint closed                     url=http://0.0.0.0:8090
+INFO [03-02|14:09:44] IPC endpoint closed                      endpoint=/Users/nerc/Documents/fangmingdong/ethRelate/community-private-chain/data/geth.ipc
+INFO [03-02|14:09:44] Blockchain manager stopped 
+INFO [03-02|14:09:44] Stopping Ethereum protocol 
+INFO [03-02|14:09:44] Ethereum protocol stopped 
+INFO [03-02|14:09:44] Transaction pool stopped 
+INFO [03-02|14:09:44] Database closed                          database=/Users/nerc/Documents/fangmingdong/ethRelate/community-private-chain/data/geth/chaindata
+INFO [03-02|14:09:50] Maximum peer count                       ETH=25 LES=0 total=25
+INFO [03-02|14:09:50] Starting peer-to-peer node               instance=Geth/FangMindDong/v1.8.1-stable/darwin-amd64/go1.9.2
+INFO [03-02|14:09:50] Allocated cache and file handles         database=/Users/nerc/Documents/fangmingdong/ethRelate/community-private-chain/data/geth/chaindata cache=768 handles=1024
+INFO [03-02|14:09:50] Initialised chain configuration          config="{ChainID: 8 Homestead: 0 DAO: <nil> DAOSupport: false EIP150: <nil> EIP155: 0 EIP158: 0 Byzantium: <nil> Engine: unknown}"
+INFO [03-02|14:09:50] Disk storage enabled for ethash caches   dir=/Users/nerc/Documents/fangmingdong/ethRelate/community-private-chain/data/geth/ethash count=3
+INFO [03-02|14:09:50] Disk storage enabled for ethash DAGs     dir=/Users/nerc/.ethash                                                                   count=2
+INFO [03-02|14:09:50] Initialising Ethereum protocol           versions="[63 62]" network=999
+INFO [03-02|14:09:50] Loaded most recent local header          number=0 hash=1e7bea…deffa5 td=131072
+INFO [03-02|14:09:50] Loaded most recent local full block      number=0 hash=1e7bea…deffa5 td=131072
+INFO [03-02|14:09:50] Loaded most recent local fast block      number=0 hash=1e7bea…deffa5 td=131072
+INFO [03-02|14:09:50] Loaded local transaction journal         transactions=0 dropped=0
+INFO [03-02|14:09:50] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [03-02|14:09:50] Starting P2P networking 
+INFO [03-02|14:09:53] UDP listener up                          self=enode://09034007e158e2a62813b22b81f54bb5e144657317997e09e60b608caab227ea26db0f644f8928b23057c4da7872806a6a8c6ae1413ae77f8830082b8dfef897@[::]:30304
+INFO [03-02|14:09:53] RLPx listener up                         self=enode://09034007e158e2a62813b22b81f54bb5e144657317997e09e60b608caab227ea26db0f644f8928b23057c4da7872806a6a8c6ae1413ae77f8830082b8dfef897@[::]:30304
+INFO [03-02|14:09:53] IPC endpoint opened                      url=/Users/nerc/Documents/fangmingdong/ethRelate/community-private-chain/data/geth.ipc
+INFO [03-02|14:09:53] HTTP endpoint opened                     url=http://0.0.0.0:8090                                                                cors=* vhosts=localhost
+INFO [03-02|14:13:42] Updated mining threads                   threads=0
+INFO [03-02|14:13:42] Transaction pool price threshold updated price=18000000000
+ERROR[03-02|14:13:42] Cannot start mining without etherbase    err="etherbase must be explicitly specified"
+INFO [03-02|14:13:47] Updated mining threads                   threads=1
+INFO [03-02|14:13:47] Transaction pool price threshold updated price=18000000000
+ERROR[03-02|14:13:47] Cannot start mining without etherbase    err="etherbase must be explicitly specified"
+INFO [03-02|14:14:54] Updated mining threads                   threads=1
+INFO [03-02|14:14:54] Transaction pool price threshold updated price=18000000000
+INFO [03-02|14:14:54] Etherbase automatically configured       address=0xc056B9299E4342bd2bF943eec27a14D6b6CACA38
+INFO [03-02|14:14:54] Starting mining operation 
+INFO [03-02|14:14:54] Commit new mining work                   number=1 txs=0 uncles=0 elapsed=162.954µs
+INFO [03-02|14:16:49] Updated mining threads                   threads=1
+INFO [03-02|14:16:49] Transaction pool price threshold updated price=18000000000
+INFO [03-02|14:16:49] Starting mining operation 
+INFO [03-02|14:16:49] Commit new mining work                   number=1 txs=0 uncles=0 elapsed=218.299µs
+INFO [03-02|14:17:41] HTTP endpoint closed                     url=http://0.0.0.0:8090
+INFO [03-02|14:17:41] IPC endpoint closed                      endpoint=/Users/nerc/Documents/fangmingdong/ethRelate/community-private-chain/data/geth.ipc
+INFO [03-02|14:17:41] Blockchain manager stopped 
+INFO [03-02|14:17:41] Stopping Ethereum protocol 
+INFO [03-02|14:17:41] Ethereum protocol stopped 
+INFO [03-02|14:17:41] Transaction pool stopped 
+INFO [03-02|14:17:41] Database closed                          database=/Users/nerc/Documents/fangmingdong/ethRelate/community-private-chain/data/geth/chaindata

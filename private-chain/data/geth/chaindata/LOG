@@ -1,0 +1,36 @@
+=============== Mar 1, 2018 (CST) ===============
+11:16:12.914076 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+11:16:12.914657 db@open opening
+11:16:12.915112 version@stat F·[] S·0B[] Sc·[]
+11:16:12.915432 db@janitor F·2 G·0
+11:16:12.915476 db@open done T·791.286µs
+=============== Mar 1, 2018 (CST) ===============
+11:16:18.210244 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+11:16:18.222961 version@stat F·[] S·0B[] Sc·[]
+11:16:18.222992 db@open opening
+11:16:18.223129 journal@recovery F·1
+11:16:18.227239 journal@recovery recovering @1
+11:16:18.231725 memdb@flush created L0@2 N·9 S·583B "Ha\x15..BM\x04,v3":"r\x00\x00..BM\x04,v5"
+11:16:18.236726 version@stat F·[1] S·583B[583B] Sc·[0.25]
+11:16:18.237700 db@janitor F·3 G·0
+11:16:18.237716 db@open done T·14.715439ms
+13:19:29.382546 db@close closing
+13:19:29.398708 db@close done T·16.155385ms
+=============== Mar 1, 2018 (CST) ===============
+13:19:32.788948 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:19:32.789590 version@stat F·[1] S·583B[583B] Sc·[0.25]
+13:19:32.789628 db@open opening
+13:19:32.789754 journal@recovery F·1
+13:19:32.794558 journal@recovery recovering @3
+13:19:32.828761 memdb@flush created L0@5 N·17445 S·896KiB "\x011\xe4..\xbb\xaa\xea,v17440":"\xf6\xd8P..a+\xfd,v17442"
+13:19:32.925099 version@stat F·[2] S·897KiB[897KiB] Sc·[0.50]
+13:19:32.926236 db@janitor F·4 G·0
+13:19:32.926260 db@open done T·136.614309ms
+13:19:32.946215 table@compaction L0·2 -> L1·0 S·897KiB Q·17457
+13:19:32.961037 table@build created L1@8 N·11648 S·660KiB "\x011\xe4..\xbb\xaa\xea,v17440":"\xf6\xd8P..a+\xfd,v17442"
+13:19:32.961084 version@stat F·[0 1] S·660KiB[0B 660KiB] Sc·[0.00 0.01]
+13:19:32.961326 table@compaction committed F-1 S-237KiB Ke·0 D·5806 T·15.036004ms
+13:19:32.961558 table@remove removed @5
+13:19:32.961700 table@remove removed @2
+14:05:43.811778 db@close closing
+14:05:43.826529 db@close done T·14.74835ms
